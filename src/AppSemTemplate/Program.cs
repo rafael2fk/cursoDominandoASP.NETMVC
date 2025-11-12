@@ -1,14 +1,22 @@
+using AppSemTemplate.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();  // para ter o controller funcionando
+builder.Services.AddControllersWithViews();   // para ter o controller funcionando
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services.AddDbContext<AppDbContext>(o =>
+    o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-app.UseStaticFiles();                      // add a arqvs estáticos
+app.UseStaticFiles();
 
-app.UseRouting();                          // para usar routes
+app.UseRouting();                            
 
-app.MapControllerRoute(                    // mapeando a estrutura da controller
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
