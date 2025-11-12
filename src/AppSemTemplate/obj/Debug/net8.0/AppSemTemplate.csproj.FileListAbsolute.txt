@@ -28,3 +28,6 @@ C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solutio
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net8.0\AppSemTemplate.pdb
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net8.0\AppSemTemplate.genruntimeconfig.cache
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net8.0\ref\AppSemTemplate.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net8.0\libman.json
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net8.0\AppSemTemplate.staticwebassets.runtime.json
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net8.0\AppSemTemplate.sourcelink.json

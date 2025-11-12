@@ -4,6 +4,8 @@ builder.Services.AddControllersWithViews();  // para ter o controller funcionand
 
 var app = builder.Build();
 
+app.UseStaticFiles();                      // add a arqvs estáticos
+
 app.UseRouting();                          // para usar routes
 
 app.MapControllerRoute(                    // mapeando a estrutura da controller
