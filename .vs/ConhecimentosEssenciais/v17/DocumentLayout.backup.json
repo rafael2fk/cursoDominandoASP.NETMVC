@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,45 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "src\\AppSemTemplate\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T20:46:12.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "src\\AppSemTemplate\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T20:45:38.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "src\\AppSemTemplate\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T20:44:36.693Z",
-              "EditorCaption": ""
             }
           ]
         },
