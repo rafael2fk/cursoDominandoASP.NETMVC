@@ -6,17 +6,33 @@ namespace AppSemTemplate.Controllers
     [Route("teste-di")]
     public class DiLifecycleController : Controller
     {
-        public IOperacao Operacao { get; set; }
+        public OperacaoService OperacaoService { get; }
+        public OperacaoService OperacaoService2 { get; }
 
-        public DiLifecycleController(IOperacao operacao)
+        public DiLifecycleController(OperacaoService operacaoService,
+                                        OperacaoService operacaoService2)
         {
-            Operacao = operacao;
+            OperacaoService = operacaoService;
+            OperacaoService2 = operacaoService2;
         }
-        public IActionResult Index()
-        {
-            var teste = Operacao;
 
-            return View();
+        public string Index()
+        {
+            return
+                "Primeira instância: " + Environment.NewLine +
+                OperacaoService.Transient.OperacaoId + Environment.NewLine +
+                OperacaoService.Scoped.OperacaoId + Environment.NewLine +
+                OperacaoService.Singleton.OperacaoId + Environment.NewLine +
+                OperacaoService.SingletonInstance.OperacaoId + Environment.NewLine +
+
+                Environment.NewLine +
+                Environment.NewLine +
+
+                "Segunda instância: " + Environment.NewLine +
+                OperacaoService2.Transient.OperacaoId + Environment.NewLine +
+                OperacaoService2.Scoped.OperacaoId + Environment.NewLine +
+                OperacaoService2.Singleton.OperacaoId + Environment.NewLine +
+                OperacaoService2.SingletonInstance.OperacaoId + Environment.NewLine;
         }
     }
 }

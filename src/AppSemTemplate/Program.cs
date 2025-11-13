@@ -20,8 +20,16 @@ builder.Services.Configure<RazorViewEngineOptions>(options =>
 //builder.Services.AddRouting(options =>
 //    options.ConstraintMap["slugify"] = typeof(RouteSluginfyParameterTransformer));
 
-builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();              //Injecao de Depend
-builder.Services.AddScoped<IOperacao, Operacao>();
+
+//Injecao de Depend, Tipos de Ciclo de Vida
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();             
+
+builder.Services.AddTransient<IOperacaoTransient, Operacao>();
+builder.Services.AddScoped<IOperacaoScoped, Operacao>();
+builder.Services.AddSingleton<IOperacaoSingleton, Operacao>();
+builder.Services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty));
+
+builder.Services.AddTransient<OperacaoService>();  // não guarda nenhum tipo de estado deles
 
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
