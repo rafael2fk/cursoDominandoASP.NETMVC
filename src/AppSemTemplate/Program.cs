@@ -1,12 +1,18 @@
 using AppSemTemplate.Data;
 using AppSemTemplate.Extensions;
 using AppSemTemplate.Services;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllersWithViews();   // para ter o controller funcionando
+//builder.Services.AddControllersWithViews();   // para ter o controller funcionando
+
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 
+});
 
 // Add suporte a mudança de convenção da rota das areas.
 builder.Services.Configure<RazorViewEngineOptions>(options =>

@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\controllers\\dilifecyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\dilifecyclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,22 +36,22 @@
               "RelativeDocumentMoniker": "src\\AppSemTemplate\\Program.cs",
               "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
               "RelativeToolTip": "src\\AppSemTemplate\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:14:12.096Z",
+              "WhenOpened": "2025-11-13T20:53:54.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DiLifecycleController.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\DiLifecycleController.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\DiLifecycleController.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\DiLifecycleController.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\DiLifecycleController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAwwEEAAABFAAAAAAAAAA==",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:06:04.706Z",
+              "WhenOpened": "2025-11-13T20:51:36.449Z",
               "EditorCaption": ""
             }
           ]
