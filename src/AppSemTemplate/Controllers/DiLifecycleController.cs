@@ -34,5 +34,20 @@ namespace AppSemTemplate.Controllers
                 OperacaoService2.Singleton.OperacaoId + Environment.NewLine +
                 OperacaoService2.SingletonInstance.OperacaoId + Environment.NewLine;
         }
+
+        [Route("teste")]
+        public string Teste([FromServices] OperacaoService operacaoService)
+        {
+            return operacaoService.Transient.OperacaoId + Environment.NewLine +
+                operacaoService.Scoped.OperacaoId + Environment.NewLine +
+                operacaoService.Singleton.OperacaoId + Environment.NewLine +
+                operacaoService.SingletonInstance.OperacaoId + Environment.NewLine;
+        }
+
+        [Route("view")]
+        public IActionResult TesteView()
+        {
+            return View("Index");
+        }
     }
 }
