@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\views\\produtos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\extensions\\botaotaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\extensions\\botaotaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\views\\shared\\components\\counter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\views\\shared\\components\\counter\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\components\\counterviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\components\\counterviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\extensions\\routesluginfyparametertransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\extensions\\routesluginfyparametertransformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Produtos\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Views\\Produtos\\Index.cshtml",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Produtos\\Index.cshtml",
-              "RelativeToolTip": "src\\AppSemTemplate\\Views\\Produtos\\Index.cshtml",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowDYAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T23:43:54.667Z",
+              "Title": "BotaoTagHelper.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\BotaoTagHelper.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Extensions\\BotaoTagHelper.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\BotaoTagHelper.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Extensions\\BotaoTagHelper.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwD0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:13:15.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Shared\\Components\\Counter\\Default.cshtml",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Views\\Shared\\Components\\Counter\\Default.cshtml",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Views\\Shared\\Components\\Counter\\Default.cshtml",
-              "RelativeToolTip": "src\\AppSemTemplate\\Views\\Shared\\Components\\Counter\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-12T23:41:49.632Z",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:04:14.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:04:10.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CounterViewComponent.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Components\\CounterViewComponent.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Components\\CounterViewComponent.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Components\\CounterViewComponent.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Components\\CounterViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Program.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T23:35:21.596Z",
+              "WhenOpened": "2025-11-13T13:59:04.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteSluginfyParameterTransformer.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\RouteSluginfyParameterTransformer.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Extensions\\RouteSluginfyParameterTransformer.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\RouteSluginfyParameterTransformer.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Extensions\\RouteSluginfyParameterTransformer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T13:52:07.069Z",
               "EditorCaption": ""
             }
           ]

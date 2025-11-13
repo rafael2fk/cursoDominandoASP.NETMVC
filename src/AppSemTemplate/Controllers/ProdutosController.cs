@@ -5,6 +5,7 @@ using AppSemTemplate.Models;
 
 namespace AppSemTemplate.Controllers
 {
+    [Route("meus-produtos")]
     public class ProdutosController : Controller
     {
         private readonly AppDbContext _context;
@@ -22,6 +23,7 @@ namespace AppSemTemplate.Controllers
                           Problem("Entity set 'AppDbContext.Produtos'  is null.");
         }
 
+        [Route("detalhes/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Produtos == null)
@@ -39,12 +41,13 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
+        [Route("criar-novo")]
         public IActionResult Create()
         {
             return View();
         }
 
-        [HttpPost]
+        [HttpPost("criar-novo")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Imagem,Valor")] Produto produto)
         {
@@ -57,6 +60,7 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
+        [Route("editar-produto/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Produtos == null)
@@ -72,7 +76,7 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
-        [HttpPost]
+        [HttpPost("editar-produto/{id}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Imagem,Valor")] Produto produto)
         {
@@ -104,7 +108,7 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
-
+        [Route("excluir/{id}")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Produtos == null)
@@ -122,7 +126,7 @@ namespace AppSemTemplate.Controllers
             return View(produto);
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost("excluir/{id}"), ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

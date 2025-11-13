@@ -1,9 +1,13 @@
 using AppSemTemplate.Data;
+using AppSemTemplate.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();   // para ter o controller funcionando
+
+//builder.Services.AddRouting(options =>
+//    options.ConstraintMap["slugify"] = typeof(RouteSluginfyParameterTransformer));
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
@@ -14,7 +18,11 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 
-app.UseRouting();                            
+app.UseRouting();
+
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller:slugify=Home}/{action:slugify=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "default",
