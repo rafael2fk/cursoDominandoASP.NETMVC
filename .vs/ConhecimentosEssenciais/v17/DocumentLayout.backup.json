@@ -3,11 +3,16 @@
   "WorkspaceRootPath": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ConhecimentosEssenciais/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ConhecimentosEssenciais/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-11-13T22:00:21.574Z",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:18:16.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Program.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAXAAAAAAAAAA==",
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwBQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T21:58:55.179Z",
+              "WhenOpened": "2025-11-13T22:14:22.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "src\\AppSemTemplate\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T22:13:55.808Z",
               "EditorCaption": ""
             }
           ]

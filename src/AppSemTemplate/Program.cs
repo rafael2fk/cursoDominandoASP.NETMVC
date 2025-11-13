@@ -15,7 +15,7 @@ builder.Services.AddControllersWithViews(options =>
     options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 
 });
 
-// Add suporte a mudança de convenção da rota das areas.
+// Add suporte a mudanï¿½a de convenï¿½ï¿½o da rota das areas.
 builder.Services.Configure<RazorViewEngineOptions>(options =>
 {
     options.AreaViewLocationFormats.Clear();
@@ -36,7 +36,7 @@ builder.Services.AddScoped<IOperacaoScoped, Operacao>();
 builder.Services.AddSingleton<IOperacaoSingleton, Operacao>();
 builder.Services.AddSingleton<IOperacaoSingletonInstance>(new Operacao(Guid.Empty));
 
-builder.Services.AddTransient<OperacaoService>();  // não guarda nenhum tipo de estado deles
+builder.Services.AddTransient<OperacaoService>();  // nï¿½o guarda nenhum tipo de estado deles
 
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -82,7 +82,7 @@ app.UseAuthorization();
 //    name: "areas",
 //    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
-// Rota de Áreas especializadas
+// Rota de ï¿½reas especializadas
 app.MapAreaControllerRoute("AreaProtudots", "Produtos", "Produtos/{controller=Cadastro}/{action=Index}/{id?}");
 app.MapAreaControllerRoute("AreaVendas", "Vendas", "Vendas/{controller=Gestao}/{action=Index}/{id?}");
 

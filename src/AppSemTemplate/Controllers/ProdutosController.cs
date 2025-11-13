@@ -18,6 +18,8 @@ namespace AppSemTemplate.Controllers
         // GET: Produtos
         public async Task<IActionResult> Index()
         {
+            var user = HttpContext.User.Identity;
+
               return _context.Produtos != null ? 
                           View(await _context.Produtos.ToListAsync()) :
                           Problem("Entity set 'AppDbContext.Produtos'  is null.");
