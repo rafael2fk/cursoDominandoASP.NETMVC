@@ -40,7 +40,27 @@ builder.Services.AddTransient<OperacaoService>();  // não guarda nenhum tipo de 
 builder.Services.AddDbContext<AppDbContext>(o =>
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddHsts(options =>
+{
+    options.Preload = true;
+    options.IncludeSubDomains = true;
+    options.MaxAge = TimeSpan.FromDays(60);
+    options.ExcludedHosts.Add("example.com");
+    options.ExcludedHosts.Add("www.example.com");
+});
+
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    
+}
+else
+{
+    app.UseHsts();
+}
+   
+app.UseHttpsRedirection();                         
 
 app.UseStaticFiles();
 
