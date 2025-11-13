@@ -255,3 +255,12 @@ C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solutio
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.pdb
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.genruntimeconfig.cache
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\ref\AppSemTemplate.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.MvcApplicationPartsAssemblyInfo.cs
