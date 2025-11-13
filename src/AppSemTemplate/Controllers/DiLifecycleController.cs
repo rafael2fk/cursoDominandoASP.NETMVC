@@ -8,12 +8,15 @@ namespace AppSemTemplate.Controllers
     {
         public OperacaoService OperacaoService { get; }
         public OperacaoService OperacaoService2 { get; }
+        public IServiceProvider ServiceProvider { get; }
 
         public DiLifecycleController(OperacaoService operacaoService,
-                                        OperacaoService operacaoService2)
+                                     OperacaoService operacaoService2,
+                                     IServiceProvider serviceProvider)
         {
             OperacaoService = operacaoService;
             OperacaoService2 = operacaoService2;
+            ServiceProvider = serviceProvider;
         }
 
         public string Index()
@@ -48,6 +51,20 @@ namespace AppSemTemplate.Controllers
         public IActionResult TesteView()
         {
             return View("Index");
+        }
+
+        [Route("container")]
+        public string TesteContainer()
+        {
+            using (var serviceScope = ServiceProvider.CreateScope())
+            {
+                var services = serviceScope.ServiceProvider;
+
+                var singService = services.GetRequiredService<IOperacaoSingleton>();
+
+                return "Instancia Singleton: " + Environment.NewLine +
+                        singService.OperacaoId + Environment.NewLine;
+            }
         }
     }
 }
