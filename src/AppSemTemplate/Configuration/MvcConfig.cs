@@ -10,6 +10,12 @@ namespace AppSemTemplate.Configuration
     {
         public static WebApplicationBuilder AddMvcConfiguration(this WebApplicationBuilder builder)
         {
+            builder.Configuration
+                 .SetBasePath(builder.Environment.ContentRootPath)             //add suporte personalizado nesse padrão
+                 .AddJsonFile("appsettings.json", true, true)
+                 .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
+                 .AddEnvironmentVariables();
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 

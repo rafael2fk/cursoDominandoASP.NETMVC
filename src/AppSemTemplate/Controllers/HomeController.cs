@@ -6,6 +6,8 @@ namespace AppSemTemplate.Controllers
     {
         public IActionResult Index()
         {
+            var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
             return View();
         }
     }
