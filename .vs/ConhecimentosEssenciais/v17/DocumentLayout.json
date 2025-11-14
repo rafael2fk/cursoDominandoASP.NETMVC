@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|c:\\estudos\\01 - estudos\\01 - desenvolvedor.io\\06 - dominandoasp.net\\01 - solution01\\conhecimentosessenciais\\src\\appsemtemplate\\extensions\\claimsauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C8097CD-33AA-4111-9D11-FC60EC65E3A6}|src\\AppSemTemplate\\AppSemTemplate.csproj|solutionrelative:src\\appsemtemplate\\extensions\\claimsauthorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,23 +36,33 @@
               "RelativeDocumentMoniker": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "src\\AppSemTemplate\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:05:37.02Z",
+              "WhenOpened": "2025-11-14T13:33:00.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
-              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Program.cs",
-              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Program.cs",
-              "RelativeToolTip": "src\\AppSemTemplate\\Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEEAAAAvAAAAAAAAAA==",
+              "Title": "ClaimsAuthorization.cs",
+              "DocumentMoniker": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\ClaimsAuthorization.cs",
+              "RelativeDocumentMoniker": "src\\AppSemTemplate\\Extensions\\ClaimsAuthorization.cs",
+              "ToolTip": "C:\\Estudos\\01 - Estudos\\01 - Desenvolvedor.io\\06 - dominandoASP.NET\\01 - Solution01\\ConhecimentosEssenciais\\src\\AppSemTemplate\\Extensions\\ClaimsAuthorization.cs",
+              "RelativeToolTip": "src\\AppSemTemplate\\Extensions\\ClaimsAuthorization.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDAAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:02:14.695Z",
+              "WhenOpened": "2025-11-14T13:32:29.112Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 102,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
