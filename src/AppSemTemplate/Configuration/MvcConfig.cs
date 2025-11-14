@@ -53,10 +53,12 @@ namespace AppSemTemplate.Configuration
         {
             if (app.Environment.IsDevelopment())
             {
-
+                app.UseDeveloperExceptionPage();         //página de erro detalhada
             }
             else
             {
+                app.UseExceptionHandler("/erro/500");              //redirecionamento
+                app.UseStatusCodePagesWithRedirects("/erro/{0}");  //com base no status code ele vai redrc 
                 app.UseHsts();
             }
 
