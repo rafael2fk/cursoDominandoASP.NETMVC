@@ -18,7 +18,8 @@ namespace AppSemTemplate.Controllers
         }
 
         // GET: Produtos
-        [AllowAnonymous]
+        //[AllowAnonymous]
+        [Authorize(Policy = "VerProdutos")]
         public async Task<IActionResult> Index()
         {
             var user = HttpContext.User.Identity;
@@ -28,6 +29,7 @@ namespace AppSemTemplate.Controllers
                           Problem("Entity set 'AppDbContext.Produtos'  is null.");
         }
 
+        [Authorize(Policy = "VerProdutos")]
         [Route("detalhes/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
