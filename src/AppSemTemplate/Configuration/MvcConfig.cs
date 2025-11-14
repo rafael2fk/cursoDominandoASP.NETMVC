@@ -41,6 +41,9 @@ namespace AppSemTemplate.Configuration
                 options.ExcludedHosts.Add("www.example.com");
             });
 
+            builder.Services.Configure<ApiConfiguration>(
+                builder.Configuration.GetSection(ApiConfiguration.ConfigName));
+
             return builder;
         }
 
