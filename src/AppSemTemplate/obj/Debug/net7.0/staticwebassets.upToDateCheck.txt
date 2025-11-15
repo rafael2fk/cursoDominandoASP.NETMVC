@@ -1,6 +1,5 @@
-wwwroot\css\site.css
-wwwroot\css\site.min.css
 wwwroot\favicon.ico
+wwwroot\images\13be2c0a-b008-4ef4-8b62-ef13cb600602_Hacker-PNG-Photo-Image.png
 wwwroot\images\CSS.jpg
 wwwroot\images\HTML.jpg
 wwwroot\images\JQuery.jpg
@@ -157,3 +156,5 @@ wwwroot\lib\jquery\jquery.min.map
 wwwroot\lib\jquery\jquery.slim.js
 wwwroot\lib\jquery\jquery.slim.min.js
 wwwroot\lib\jquery\jquery.slim.min.map
+wwwroot\css\site.css
+wwwroot\css\site.min.css
