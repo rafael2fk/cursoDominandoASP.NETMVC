@@ -64,6 +64,8 @@ namespace AppSemTemplate.Configuration
                 app.UseHsts();
             }
 
+            app.UseGlobalizationConfig();                           // culturas
+
             app.UseElmahIo();                                      //após o middle de erro
             app.UseElmahIoExtensionsLogging();
 

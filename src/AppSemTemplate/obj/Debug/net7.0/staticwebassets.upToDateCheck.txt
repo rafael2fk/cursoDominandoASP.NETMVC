@@ -1,5 +1,5 @@
 wwwroot\css\site.css
-wwwroot\js\site.min.js
+wwwroot\css\site.min.css
 wwwroot\favicon.ico
 wwwroot\images\CSS.jpg
 wwwroot\images\HTML.jpg
@@ -7,7 +7,7 @@ wwwroot\images\JQuery.jpg
 wwwroot\images\Razor.jpg
 wwwroot\js\cep.js
 wwwroot\js\site.js
-wwwroot\css\site.min.css
+wwwroot\js\site.min.js
 wwwroot\lib\bootstrap\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\css\bootstrap-grid.min.css
