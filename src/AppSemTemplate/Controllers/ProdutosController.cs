@@ -53,14 +53,14 @@ namespace AppSemTemplate.Controllers
 
         // AD, VI, ED, EX
 
-        [ClaimsAuthorize("Produto", "AD")]
+        [ClaimsAuthorize("Produtos", "AD")]
         [Route("criar-novo")]
         public IActionResult Create()
         {
             return View();
         }
 
-        [ClaimsAuthorize("Produto", "AD")]
+        [ClaimsAuthorize("Produtos", "AD")]
         [HttpPost("criar-novo")]
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Imagem,Valor")] Produto produto)

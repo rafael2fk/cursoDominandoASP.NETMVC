@@ -23,6 +23,8 @@ namespace AppSemTemplate.Configuration
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 
                 options.Filters.Add(typeof(FiltroAuditoria));
+
+                MvcOptionsConfig.ConfigurarMensagensDeModelBinding(options.ModelBindingMessageProvider);        //puxando a mvcOptions
             });
 
             builder.Services.Configure<RazorViewEngineOptions>(options =>
