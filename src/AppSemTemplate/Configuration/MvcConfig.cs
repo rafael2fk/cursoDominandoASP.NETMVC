@@ -25,7 +25,9 @@ namespace AppSemTemplate.Configuration
                 options.Filters.Add(typeof(FiltroAuditoria));
 
                 MvcOptionsConfig.ConfigurarMensagensDeModelBinding(options.ModelBindingMessageProvider);        //puxando a mvcOptions
-            });
+            })
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                .AddDataAnnotationsLocalization();
 
             builder.Services.Configure<RazorViewEngineOptions>(options =>
             {

@@ -296,3 +296,9 @@ C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solutio
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.Client.dll
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.AspNetCore.ExtensionsLogging.dll
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.Extensions.Logging.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\en\AppSemTemplate.resources.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Controllers.HomeController.en.resources
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Models.Produto.en.resources
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.Resources.Views.Shared._SelectLanguagePartial.en.resources
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\AppSemTemplate.csproj.GenerateResource.cache
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\obj\Debug\net7.0\en\AppSemTemplate.resources.dll
