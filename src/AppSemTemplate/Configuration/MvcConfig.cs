@@ -1,4 +1,5 @@
 ﻿using AppSemTemplate.Data;
+using AppSemTemplate.Extensions;
 using AppSemTemplate.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -21,6 +22,7 @@ namespace AppSemTemplate.Configuration
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 
+                options.Filters.Add(typeof(FiltroAuditoria));
             });
 
             builder.Services.Configure<RazorViewEngineOptions>(options =>
