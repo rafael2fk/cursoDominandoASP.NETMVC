@@ -292,3 +292,7 @@ C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solutio
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.AspNetCore.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.Client.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.AspNetCore.ExtensionsLogging.dll
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\bin\Debug\net7.0\Elmah.Io.Extensions.Logging.dll

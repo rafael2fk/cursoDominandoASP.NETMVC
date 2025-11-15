@@ -9,16 +9,24 @@ namespace AppSemTemplate.Controllers
     {
         private readonly IConfiguration Configuration;
         private readonly ApiConfiguration ApiConfig;
+        private readonly ILogger<HomeController> Logger;
 
         public HomeController(IConfiguration configuration,
-                              IOptions<ApiConfiguration> apiConfiguration)
+                              IOptions<ApiConfiguration> apiConfiguration,
+                              ILogger<HomeController> logger)
         {
             Configuration = configuration;
             ApiConfig = apiConfiguration.Value;
+            Logger = logger;
         }
 
         public IActionResult Index()
         {
+            Logger.LogInformation("Information");
+            Logger.LogCritical("Critical");
+            Logger.LogWarning("Warning");
+            Logger.LogError("Error");
+
             var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
             var apiConfig = new ApiConfiguration();

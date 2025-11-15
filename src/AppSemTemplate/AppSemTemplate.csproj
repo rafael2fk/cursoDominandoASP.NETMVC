@@ -8,6 +8,9 @@
   </PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Elmah.Io.AspNetCore" Version="5.3.88" />
+		<PackageReference Include="Elmah.Io.AspNetCore.ExtensionsLogging" Version="5.0.43" />
+		<PackageReference Include="Elmah.Io.Extensions.Logging" Version="5.0.43" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.20" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.20" />
