@@ -2,7 +2,6 @@
 using AppSemTemplate.Models;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Options;
 
@@ -48,6 +47,11 @@ namespace AppSemTemplate.Controllers
 
             ViewData["Horario"] = DateTime.Now;
 
+            if (Request.Cookies.TryGetValue("MeuCookie", out string? cookieValue))
+            {
+                ViewData["MeuCookie"] = cookieValue;
+            }
+
             return View();
         }
 
@@ -61,6 +65,19 @@ namespace AppSemTemplate.Controllers
                 );
 
             return LocalRedirect(returnUrl);
+        }
+
+        [Route("cookies")]
+        public IActionResult Cookie()
+        {
+            var cookieOptions = new CookieOptions
+            {
+                Expires = DateTime.Now.AddHours(1)
+            };
+
+            Response.Cookies.Append("MeuCookie", "Dados do Cookie", cookieOptions);
+
+            return View();
         }
 
         [Route("teste")]
