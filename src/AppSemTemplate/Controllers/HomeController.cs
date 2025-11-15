@@ -26,6 +26,7 @@ namespace AppSemTemplate.Controllers
             _localizer = localizer;
         }
 
+        [ResponseCache(Duration = 300, Location = ResponseCacheLocation.Any, NoStore = false)]
         public IActionResult Index()
         {
             Logger.LogInformation("Information");
@@ -44,6 +45,8 @@ namespace AppSemTemplate.Controllers
             var domain = ApiConfig.Domain;
 
             ViewData["Message"] = _localizer["Seja bem vindo!"];
+
+            ViewData["Horario"] = DateTime.Now;
 
             return View();
         }

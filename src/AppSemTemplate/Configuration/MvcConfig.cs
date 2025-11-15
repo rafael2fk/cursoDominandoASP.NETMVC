@@ -19,6 +19,8 @@ namespace AppSemTemplate.Configuration
                  .AddEnvironmentVariables()
                  .AddUserSecrets(Assembly.GetExecutingAssembly(), true);         // add usersecrets
 
+            builder.Services.AddResponseCaching();    // add cache
+
             builder.Services.AddControllersWithViews(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());           // add para todo mundo 
@@ -67,6 +69,8 @@ namespace AppSemTemplate.Configuration
                 app.UseStatusCodePagesWithRedirects("/erro/{0}");  //com base no status code ele vai redrc 
                 app.UseHsts();
             }
+
+            app.UseResponseCaching();  //habilitando o cache
 
             app.UseGlobalizationConfig();                           // culturas
 
