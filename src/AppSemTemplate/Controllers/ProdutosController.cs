@@ -5,6 +5,7 @@ using AppSemTemplate.Models;
 using Microsoft.AspNetCore.Authorization;
 using AppSemTemplate.Extensions;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using AppSemTemplate.Services;
 
 namespace AppSemTemplate.Controllers
 {
@@ -13,10 +14,12 @@ namespace AppSemTemplate.Controllers
     public class ProdutosController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IImageUploadService _imageUploadService;
 
-        public ProdutosController(AppDbContext context)
+        public ProdutosController(AppDbContext context, IImageUploadService imageUploadService)
         {
             _context = context;
+            _imageUploadService = imageUploadService;
         }
 
         // GET: Produtos
@@ -69,7 +72,7 @@ namespace AppSemTemplate.Controllers
             if (ModelState.IsValid)
             {
                 var imgPrefixo = Guid.NewGuid() + "_";
-                if (!await UploadArquivo(produto.ImagemUpload, imgPrefixo))
+                if (!await _imageUploadService.UploadArquivo(ModelState, produto.ImagemUpload, imgPrefixo))
                 {
                     return View(produto);
                 }
@@ -80,7 +83,7 @@ namespace AppSemTemplate.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(produto);
+            return View("Create",produto);
         }
 
         [ClaimsAuthorize("Produtos", "ED")]
@@ -121,7 +124,7 @@ namespace AppSemTemplate.Controllers
                     if (produto.ImagemUpload != null)
                     {
                         var imgPrefixo = Guid.NewGuid() + "_";
-                        if (!await UploadArquivo(produto.ImagemUpload, imgPrefixo))
+                        if (!await _imageUploadService.UploadArquivo(ModelState, produto.ImagemUpload, imgPrefixo))
                         {
                             return View(produto);
                         }
@@ -190,26 +193,6 @@ namespace AppSemTemplate.Controllers
         private bool ProdutoExists(int id)
         {
           return (_context.Produtos?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
-
-        private async Task<bool> UploadArquivo(IFormFile arquivo, string imgPrefixo)
-        {
-            if (arquivo.Length <= 0) return false;
-
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", imgPrefixo + arquivo.FileName);
-
-            if (System.IO.File.Exists(path))
-            {
-                ModelState.AddModelError(string.Empty, "Já existe um arquivo com este nome!");
-                return false;
-            }
-
-            using (var stream = new FileStream(path, FileMode.Create))
-            {
-                await arquivo.CopyToAsync(stream);
-            }
-
-            return true;
         }
     }
 }
