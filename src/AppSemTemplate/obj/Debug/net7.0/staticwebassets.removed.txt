@@ -1,0 +1,3 @@
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\wwwroot\images\13be2c0a-b008-4ef4-8b62-ef13cb600602_Hacker-PNG-Photo-Image.png
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\wwwroot\images\1dc9c093-8975-4692-af42-4d01239f22aa_Hacker-PNG-Photo-Image.png
+C:\Estudos\01 - Estudos\01 - Desenvolvedor.io\06 - dominandoASP.NET\01 - Solution01\ConhecimentosEssenciais\src\AppSemTemplate\wwwroot\images\5507852c-98a5-4a5d-b698-8d6ac0bb0675_JQuery.jpg
