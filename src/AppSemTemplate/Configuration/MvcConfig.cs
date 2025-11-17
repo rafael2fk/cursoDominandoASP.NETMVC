@@ -1,6 +1,7 @@
 ﻿using AppSemTemplate.Data;
 using AppSemTemplate.Extensions;
 using AppSemTemplate.Services;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
@@ -30,6 +31,10 @@ namespace AppSemTemplate.Configuration
             })
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                 .AddDataAnnotationsLocalization();
+
+            builder.Services.AddDataProtection()
+                .PersistKeysToFileSystem(new DirectoryInfo(@"/var/data_protection_keys/"))
+                .SetApplicationName("MinhaAppMVC");
 
             builder.Services.Configure<CookiePolicyOptions>(options =>          // suporte ao cookie
             {
@@ -114,6 +119,8 @@ namespace AppSemTemplate.Configuration
 
                 Console.WriteLine("Direto da Porgram.cs" + singService.OperacaoId);
             }
+
+            DbMigrationHelpers.EnsureSeedData(app).Wait();
 
             return app;
         }
